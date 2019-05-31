@@ -5,9 +5,9 @@ import java.util.List;
 public class GetFileNames{
 	public static List<String> fileNames = new ArrayList<>();
 	public static void main (String[] args) {
-		File f = new File("F:/面试");
+		File f = new File("F:/");
 		getFileNames(f);
-		try (PrintWriter pw = new PrintWriter("C:/Users/lulec/Desktop/项目名称列表.txt")) {
+		try (PrintWriter pw = new PrintWriter("C:/Users/lulec/Desktop/椤圭洰鍚嶇О鍒楄〃.txt")) {
 			for (String s : fileNames) {
 				pw.println(s);
 			}
