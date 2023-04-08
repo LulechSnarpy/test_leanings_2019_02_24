@@ -1,11 +1,12 @@
 package workingtemp;
 
+import org.testng.annotations.Test;
+
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
 import java.io.PrintWriter;
 
-import org.junit.Test;
 
 /**
  * 清理字段信息 并 获取相应的属性名称
